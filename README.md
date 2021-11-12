@@ -6,6 +6,10 @@
 
 This project is based on the Traversy Media tutorial on Tailwind CSS with React: https://www.youtube.com/watch?v=FiGmAI5e91M&t=995s 
 
+This site lets you search for stock images, similar to Pixabay or Unsplash.
+
+It utilizes the Pixabay API to find photos.
+
 I really enjoyed learning Tailwind, and I am excited to use it in future projects! I made some minor changes, including adding a title and making the design mobile-responsive. 
 
 ## Live Site
