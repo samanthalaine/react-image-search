@@ -7,7 +7,7 @@ function ImageCard({image}) {
         <div className="max-w-sm rounded overflow-hidden shadow-lg">
       <img src={image.webformatURL} alt={image.webformatURL} className="w-full"/>
       <div className="px-6 py-3">
-      <div className="font-bold text-blue-700 text-xl mb-2">
+      <div className="font-semibold text-blue-700 text-xl mb-2">
         Photo by {image.user}
       </div>
       <ul>
