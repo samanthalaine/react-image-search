@@ -18,7 +18,7 @@ function App() {
   useEffect(() => {
     try {
     const fetchImages = async () => {
-      const res = await fetch(`https://pixabay.com/api/?key=${process.env.REACT_APP_PIXABAY_API_KEY}&q=${term}&image_type=photo&pretty=true`)
+      const res = await fetch(`https://pixabay.com/api/?key=${process.env.REACT_APP_PIXABAY_API_KEY}&q=${term}&image_type=photo&pretty=true&safesearch=true&per_page=18`)
       const data = await res.json()
       setImages(data.hits)
       setIsLoading(false)
@@ -35,7 +35,7 @@ function App() {
     <div className="container mx-auto">
       <ImageSearch searchText={(text)=>setTerm(text)}/>
 
-      {!isLoading && images.length === 0 && <h1 className="text-3xl text-center mx-auto mt-32">No images found</h1>}
+      {!isLoading && images.length === 0 && <h1 className="text-3xl text-gray-700 text-center mx-auto mt-32">No images found</h1>}
 
       {isLoading ? <h1 className="text-4xl text-center text-gray-500 mx-auto mt-32">Loading...</h1> : <div className="grid grid-cols-3 gap-4">
         {images.map((image)=>(
