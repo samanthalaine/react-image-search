@@ -26,7 +26,7 @@ function ImageCard({image}) {
       </ul>
       </div>
       <div className="px-6 py-3">
-        {tags.map((tag) =>(<span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-800 mr-2">
+        {tags.map((tag, index) =>(<span key={index} className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-800 mr-2">
           #{tag}
         </span>))}
        
