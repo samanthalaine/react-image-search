@@ -32,7 +32,7 @@ function App() {
   
 
   return (
-    <div className="container mx-auto">
+    <div className="container mx-auto mb-10">
       <ImageSearch searchText={(text)=>setTerm(text)}/>
 
       {!isLoading && images.length === 0 && <h1 className="text-3xl text-gray-700 text-center mx-auto mt-32">No images found</h1>}
