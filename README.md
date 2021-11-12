@@ -2,7 +2,7 @@
 ![imagefinderwebsite](https://media.discordapp.net/attachments/887887430475186176/908555837960773672/unknown.png?width=1341&height=864)
 
 
-## Info
+## About
 
 This project is based on the Traversy Media tutorial on Tailwind CSS with React: https://www.youtube.com/watch?v=FiGmAI5e91M&t=995s 
 
@@ -10,6 +10,5 @@ I really enjoyed learning Tailwind, and I am excited to use it in future project
 
 ## Live Site
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+https://image-finder-site.netlify.app/
 
