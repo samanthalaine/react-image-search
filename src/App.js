@@ -29,7 +29,6 @@ function App() {
   }
   },[term])
 
-  
 
   return (
     <div className="container mx-auto mb-10 mt-8">
